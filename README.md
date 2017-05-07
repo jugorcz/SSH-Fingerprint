@@ -1,1 +1,11 @@
 # SSH-Fingerprint
+
+To run this in DOSBox using masm to compile (https://winworldpc.com/product/macro-assembler/5x):
+
+  >mount c c:\
+  >c:
+  >cd c:\Users\...  <- place where is masm and your asembler projext
+  >masm project.asm
+  >link projext.obj
+  >p1.exe 1 d5293e9a8d90265d6b6bfb8abba5da23
+
